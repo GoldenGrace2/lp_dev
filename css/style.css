@@ -1,0 +1,90 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+
+/* NAV */
+
+.navbar{
+  padding: 0!important;
+  background-color: #0b696c;
+}
+
+.logo{
+  background-color: white;
+  border-radius: 0 10px 0 0;
+  height: 100%;
+}
+
+.imglogo{
+  height: 60px;
+  margin: 0 20px 0 20px;
+}
+
+.pages{
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.evenementslien, .assistancelien{
+  margin-top: 2px;
+}
+
+.nav-link{
+  color: white!important;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px!important;
+}
+
+.activelien{
+  background-color: #edad1f;
+  border-radius: 5px;
+  padding: 3px 6px 3px 6px;
+  margin-left: 20px;
+}
+
+.dropdown-menu{
+  background-color: #0b696c!important;
+  border-radius: 0!important;
+  border: none!important;
+}
+
+.dropdown-item{
+  color: white!important;
+  font-family: 'Raleway', sans-serif;
+}
+
+.dropdown-item:hover{
+  background-color: #0b696c!important;
+}
+
+
+.button_wow, .fc-button {
+    margin-top: 15px;
+    background-color: #edad1f!important;
+    border-radius: 5px!important;
+    padding: 3px 6px 3px 6px!important;
+    margin-left: 20px!important;
+    color: #ffffff!important;
+    font-family: 'Raleway', sans-serif!important;
+    font-size: 16px!important;
+    border: none!important;
+}
+
+@media (max-width: 990px){
+  .activelien{
+    background-color: #0b696c!important;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .nav-link{
+    margin-left: 20px;
+  }
+
+  .burger{
+    margin-right: 20px;
+  }
+}
+
+.nav {
+    height: 10vh;
+}
