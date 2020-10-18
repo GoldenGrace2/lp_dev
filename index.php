@@ -5,6 +5,9 @@
 
 <div class="limiter">
 
+        
+        <div class="container-login100" style="background-image: url('images/bg-01.jpg');">
+        
         <?php 
         
         if (!empty($_SESSION['ErreurNonCo'])) {
@@ -22,7 +25,6 @@
         unset ($_SESSION['pasValide']);
         }
 	?>
-		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 	<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
 				<form class="login100-form validate-form inscription" action="inscription_valid.php" method="POST">
 					<span class="login100-form-title" style=" height: 100px; background: url('images/logo.svg'); background-position: center;background-repeat: no-repeat;">

@@ -27,11 +27,11 @@
                   SET user_validation ="OK"
                   
                   WHERE user_validation = "'.$code.'"
-                  
-                  
                   ';
 
             $bdd->query($requete2); 
+            $_SESSION['erreur']='<h1 class="erreur">Compte validé ! Vous pouvez vous connectez et accéder au calendrier.</h1>';
+
             header('location:index.php');      
 
 
